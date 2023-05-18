@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1532703108233-69111d554cb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)
+    no-repeat center;
+  background-position: center;
+  background-size: cover;
+}
+.login .card {
+  background: rgba(149, 171, 226, 0.3);
+}
+.login input {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.login input:focus {
+  outline: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.hr {
+  height: 2px;
+  margin: 20px 0 0px 0;
+  background: rgba(255, 255, 255, 0.2);
+}
